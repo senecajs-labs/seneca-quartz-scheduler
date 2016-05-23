@@ -4,6 +4,7 @@
 [![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
 [![Dependency Status][david-badge]][david-url]
+[![Coveralls][BadgeCoveralls]][Coveralls]
 [![Gitter][gitter-badge]][gitter-url]
 
 ## Description
@@ -133,7 +134,9 @@ Run tests with:
 npm test
 ```
 
-You'll need a scheduler running for the tests to communicate with.
+You'll need a scheduler and redis server running for the tests to communicate with.
+First clone [quartz-http](https://github.com/nherment/quartz-http) and run it using [Maven](https://maven.apache.org/). 
+Then start a [redis](http://redis.io/) server on port 6379. The tests can now be run using `npm run test`
 
 ## License
 Copyright (c) 2014-2016, Seamus D'Arcy and other contributors.
@@ -146,8 +149,8 @@ Licensed under [MIT][].
 [travis-url]: https://travis-ci.org/senecajs/seneca-quartz-scheduler
 [codeclimate-badge]: https://codeclimate.com/github/senecajs/seneca-quartz-scheduler/badges/gpa.svg
 [codeclimate-url]: https://codeclimate.com/github/senecajs/seneca-quartz-scheduler
-[coverage-badge]: https://coveralls.io/repos/senecajs/seneca-quartz-scheduler/badge.svg?branch=master&service=github
-[coverage-url]: https://coveralls.io/github/senecajs/seneca-quartz-scheduler?branch=master
+[Coveralls]: https://coveralls.io/github/senecajs/seneca-quartz-scheduler?branch=master
+[BadgeCoveralls]: https://coveralls.io/repos/github/senecajs/seneca-quartz-scheduler/badge.svg?branch=master
 [david-badge]: https://david-dm.org/senecajs/seneca-quartz-scheduler.svg
 [david-url]: https://david-dm.org/senecajs/seneca-quartz-scheduler
 [gitter-badge]: https://badges.gitter.im/Join%20Chat.svg
