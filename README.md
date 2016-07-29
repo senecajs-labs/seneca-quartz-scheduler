@@ -142,8 +142,8 @@ Licensed under [MIT][].
 [MIT]: ./LICENSE
 [npm-badge]: https://img.shields.io/npm/v/seneca-quartz-scheduler.svg
 [npm-url]: https://npmjs.com/package/seneca-quartz-scheduler
-[travis-badge]: https://travis-ci.org/senecajs/seneca-quartz-scheduler.svg
-[travis-url]: https://travis-ci.org/senecajs/seneca-quartz-scheduler
+[travis-badge]: https://travis-ci.org/senecajs-labs/seneca-quartz-scheduler.svg
+[travis-url]: https://travis-ci.org/senecajs-labs/seneca-quartz-scheduler
 [codeclimate-badge]: https://codeclimate.com/github/senecajs/seneca-quartz-scheduler/badges/gpa.svg
 [codeclimate-url]: https://codeclimate.com/github/senecajs/seneca-quartz-scheduler
 [coverage-badge]: https://coveralls.io/repos/senecajs/seneca-quartz-scheduler/badge.svg?branch=master&service=github
